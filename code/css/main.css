@@ -1,0 +1,113 @@
+.card__description {
+  background-color: #ffffff;
+  padding: 15px 40px;
+}
+
+.card__description--title {
+  color: #2bb3b1;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.card__description--subtitle {
+  color: #bfdf32;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.card__description--text {
+  font-size: 0.9em;
+  line-height: 2em;
+  font-weight: 600;
+}
+
+.card__info {
+  background-color: #2bb3b1;
+  color: #ffffff;
+}
+
+.info__price {
+  padding: 15px 40px;
+}
+
+.info__price--title {
+  font-size: 1.5em;
+}
+
+.info__price--number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price--number {
+  display: inline;
+  font-size: 3em;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.price--text {
+  display: inline;
+  padding-left: 10px;
+  opacity: 50%;
+}
+
+.info__why-us {
+  background-color: #30c8c5;
+  margin: 20px 0px opx;
+  padding: 25px 40px;
+}
+
+.info__why-us--title {
+  font-size: 1.5em;
+}
+
+.info__why-us--list {
+  list-style: none;
+  padding: 0px;
+  opacity: 60%;
+  line-height: 20px;
+  font-size: 0.9em;
+}
+
+.wrapper__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  padding: 1em 6em;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #bfdf32;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  font-weight: 600;
+  font-family: 'karla', sans-serif;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+html, body {
+  margin: 0px;
+  font-family: 'Karla', sans-serif;
+  color: #adb1ba;
+  font-size: 100%;
+}
+
+.container {
+  max-width: 500px;
+}
+/*# sourceMappingURL=main.css.map */

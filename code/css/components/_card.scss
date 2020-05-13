@@ -1,0 +1,72 @@
+.card__description {
+    background-color: $primary-color;
+    padding: 15px 40px;
+}
+
+.card__description--title {
+    color: $secondary-color;
+    font-size: $title;
+    line-height: 2em;
+}
+
+.card__description--subtitle {
+    color: $accent-color;
+    font-size: $subtitle;
+    line-height: 1.4em;
+}
+
+.card__description--text {
+    font-size: $text;
+    line-height: 2em;
+    font-weight: 600;
+}
+
+.card__info {
+    background-color: $secondary-color;
+    color: $primary-color;
+
+}
+
+.info__price {
+    padding: 15px 40px;
+}
+
+.info__price--title {
+    font-size: $title;
+}
+
+.info__price--number {
+    display: flex;
+    align-items: center;
+}
+
+.price--number {
+    display: inline;
+    font-size: 3em;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.price--text {
+    display: inline;
+    padding-left: 10px;
+    opacity: 50%;
+}
+
+.info__why-us {
+    background-color: $lighten-secondary;
+    margin: 20px 0px opx;
+    padding: 25px 40px;
+}
+
+.info__why-us--title {
+    font-size: $title;
+}
+
+.info__why-us--list {
+    list-style: none;
+    padding: 0px;
+    opacity: 60%;
+    line-height: 20px;
+    font-size: $text;
+}

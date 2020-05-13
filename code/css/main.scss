@@ -1,0 +1,24 @@
+$primary-color: #ffffff;
+$secondary-color: #2bb3b1;
+$lighten-secondary: lighten(#2bb3b1,5%);
+$accent-color: #bfdf32;
+$text-gray: #adb1ba;
+$text-white: #f7ffff;
+
+$title: 1.5em;
+$subtitle: 1.2em;
+$text: .9em;
+
+@import './components/card';
+@import './components/button';
+
+html, body {
+    margin: 0px;
+    font-family: 'Karla', sans-serif;
+    color: $text-gray;
+    font-size: 100%;
+}
+
+.container {
+    max-width: 500px;
+}
