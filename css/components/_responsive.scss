@@ -1,0 +1,41 @@
+@media (min-width: 500px) {
+    
+    .body {
+        margin: 0px auto;
+    }
+    .container {
+        min-width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .card__description {
+        width: 70vw;
+        max-width: 600px;
+    }
+
+    .info__price {
+        padding: 40px;
+        width: 50%;
+    }
+
+    .info__why-us{
+        padding: 40px;
+        margin: 0px;
+        width: 50%;
+    }
+
+    .wrapper__btn {
+        justify-content: flex-start;
+    }
+}
+
